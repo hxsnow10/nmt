@@ -1,0 +1,1 @@
+python -m nmt.nmt --src=zh --tgt=en --vocab_prefix=./nmt_data/vocab --train_prefix=./nmt_data/train --dev_prefix=./nmt_data/dev2 --test_prefix=./nmt_data/dev2 --out_dir=./nmt_model_zh_en_good --hparams_path hparams_gnmt.json 
